@@ -400,7 +400,7 @@ aside {
   max-width: 640px;
   margin: 100px 0;
 }
-/* ----------------- Base Header - Footer Styles ----------------- */
+/* --- Base Header - Footer Styles --- */
 
 header {
   justify-content: space-around;
@@ -443,7 +443,7 @@ footer .copyright {
     width: 100%;
 }
 
-/* ----------------- Tablet Styles - Homepage ----------------- */
+/* --- Tablet Styles - Homepage --- */
 
 /* Hero Area */
 
@@ -486,7 +486,7 @@ aside .content-wrapper .form  {
   width: 49%;
 }
 
-/* ----------------- Tablet Styles - About ----------------- */
+/* --- Tablet Styles - About --- */
 
 .mission-content {
     display: flex;
@@ -508,7 +508,7 @@ aside .content-wrapper .form  {
     align-items: flex-start;
 }
 
-/* ----------------- Tablet Styles - FAQ ----------------- */
+/* --- Tablet Styles - FAQ --- */
 
 .faq .content-wrapper {
   justify-content: space-between;
@@ -529,8 +529,78 @@ aside .content-wrapper .form  {
 @media only screen and (min-width: 1200px) {
   /* Desktop styles here */
 
+  .content-wrapper {
+    max-width: 960px;
+  }
 
+/* --- Base Header - Footer Styles --- */
+
+
+
+/* Header */
+
+
+/* Footer */
+
+
+/* --- Desktop Styles - Homepage --- */
+
+/* Hero Area */
+
+.hero-area h1 {
+  width: 60%;
 }
+
+/* Aside */
+
+aside .content-wrapper {
+  justify-content: space-around;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  width: 30%;
+}
+
+/* features */
+
+.features h2 {
+  width: 70%;
+}
+
+.features article {
+ flex-basis: 33%;
+}
+
+/* Reviews */
+
+.reviews article div {
+  width: 42%;
+}
+
+
+/* --- Desktop Styles - About --- */
+
+.mission h2,
+.contact-section .content-wrapper h2 {
+  width: 100%;
+}
+
+.contact-section .content-wrapper h2 {
+  margin-bottom: 40px;
+}
+
+
+/* --- Desktop Styles - FAQ --- */
+
+.faq h2 {
+  width: 100%;
+}
+
+.faq-content {
+  flex-basis: 35%;
+}
+
 
 /* ==========================================================================
    Print styles.
